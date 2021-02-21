@@ -1,2 +1,2 @@
-# aula_bootstrap
-fazendo um site utilizando o bootstrap
+# aula_criando o jogo da cobrinha
+bootcamp html, css, js - digital innovation one
