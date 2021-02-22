@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script defer src="Nodo.js"></script>
+    <script defer src="script.js"></script>
+
+    <title>Snake Game</title>
+</head>
+<body>
+    <div class="canva">
+        <canvas id="tela" width="640" height="480">Navegador não suportado!</canvas>
+    </div>
+   <div class="botoes">
+    <button type="button" onclick="pausa()" id="btPausa">Iniciar</button>
+    <button type="button" onclick="novoJogo()" id="btNovo">Novo Jogo</button>
+   </div>
+    <audio id="comer1">
+        <source src="sdn/sdnComer1.mp3" type="audio/mpeg"> 
+    </audio> 
+    <audio id="comer2">
+        <source src="sdn/sdnComer2.mp3" type="audio/mpeg"> 
+    </audio>
+    <audio id="gameover">
+        <source src="sdn/sdnGameOver.mp3" type="audio/mpeg"> 
+    </audio>
+    
+
+</body>
+</html>
